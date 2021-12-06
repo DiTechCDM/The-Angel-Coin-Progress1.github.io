@@ -605,6 +605,7 @@ nav.scrolled .Navbar-wrapper ul li .nav-link {
     letter-spacing: 0.02em;
     margin-bottom: 0rem;
     line-height: 1.5195;
+    font-size: calc(12pt + 0.15vw);
 }
 
 .CTA-btn-2 {
@@ -2210,10 +2211,13 @@ footer {
     align-items: center;
 }
 
-.grid-col h2 sub {
-    font-size: calc(14pt + 0.15vw);
+.grid-col h2 span {
+    font-size: calc(12pt + 0.15vw);
 }
 
+.chart-col .dollars span{
+    font-size: calc(8pt + 0.15vw);
+}
 
 @media screen and (max-width: 1368px) {
     .grid-sm-list {
